@@ -14,7 +14,6 @@ cmd:option('-max_grad_norm',40, 'max norm for RNN models')
 cmd:option('-grad_norm','global', '[global, local, off] gradient renormalization')
 cmd:option('-N',100,'num epochs hyperparameter for lr/nn')
 cmd:option('-D0',20,'num outputs of lookup layer of nn')
-cmd:option('-pretrain',false,'use pretrained embeddings in nn')
 cmd:option('-debug','','specify model to debug')
 cmd:option('-unit_test',false,'whether run all unit tests')
 
