@@ -17,4 +17,4 @@ To train:
 ```
 th train.lua
 ```
-See `train.lua` (or the paper) for hyperparameters and more training options. To train on gpu, use `-cuda`.
+This will train on task 16 with Linear Start over 100 epochs by default. See `train.lua` (or the paper) for hyperparameters and more training options. To train on gpu, use `-cuda`.
