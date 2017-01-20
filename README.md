@@ -1,6 +1,6 @@
 # End-To-End Memory Network
 
-Torch implementation of MemN2N ([Sukhbaatar, 2015](https://arxiv.org/pdf/1503.08895v5.pdf)). Supports Adjacent Weight Tying, Position Encoding, Temporal Encoding and Linear Start. Code uses v1.0 of [bAbI dataset](https://research.fb.com/projects/babi/).
+Torch implementation of MemN2N ([Sukhbaatar, 2015](https://arxiv.org/pdf/1503.08895v5.pdf)). Supports Adjacent Weight Tying, Position Encoding, Temporal Encoding and Linear Start. Code uses v1.0 of [bAbI dataset](https://research.fb.com/projects/babi/) with 1k questions per task.
 
 ## Prerequisites:
 - Python 2.7
@@ -17,4 +17,4 @@ To train:
 ```
 th train.lua
 ```
-See `train.lua` (or the paper) for hyperparameters and more training options.
+See `train.lua` (or the paper) for hyperparameters and more training options. To train on gpu, use `-cuda`.
